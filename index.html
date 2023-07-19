@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azul</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee345bf14a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="container-first">
+            <div class="logo-decolar">
+                <img src="img/logo_decolar.png" alt="logo da decolar">
+            </div>
+            <div class="televendas">
+                <i class="fa-solid fa-headphones"></i><a href="#">Televendas <strong>0800 883 6342</strong></a>
+            </div>
+            <div class="navigation-header">
+                <nav>
+                    <ul class="login">
+                        <li><i class="fa-solid fa-passport"></i><a href="#">Passaporte</a></li>
+                        <li><i class="fa-regular fa-user"></i><a href="#">Iniciar Sessão</a></li>
+                        <li><i class="fa-solid fa-suitcase"></i><a href="#">Minhas Viagens</a></li>
+                        <li><i class="fa-regular fa-circle-question"></i><a href="#">Ajuda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="container-second">
+        <nav>
+            <ul class="categories">
+                    <li><i class="fa-solid fa-bed"></i><a href="#">Hospedagens</a></li>
+                    <li><i class="fa-solid fa-plane"></i><a href="#">Passagens</a></li>
+                    <li><i class="fa-solid fa-box-open"></i><a href="#">Pacotes</a></li>
+                    <li><i class="fa-solid fa-fire"></i><a href="#">Ofertas</a></li>
+                    <li><i class="fa-solid fa-house"></i><a href="#">Aluguéis</a></li>
+                    <li><i class="fa-solid fa-road"></i><a href="#">Passeios</a></li>
+                    <li><i class="fa-solid fa-star"></i><a href="#">Escapadas</a></li>
+                    <li><i class="fa-solid fa-car-side"></i><a href="#">Carros</a></li>
+                    <li><i class="fa-solid fa-shirt"></i><a href="#">Disney</a></li>
+                    <li><i class="fa-solid fa-shield"></i><a href="#">Seguro</a></li>
+                    <li><i class="fa-solid fa-truck-fast"></i><a href="#">Transfers</a></li>
+                </ul>
+        </nav>
+    </div>
+    <main>
+        <div id="container-background">
+                <div class="title">
+                    <h1>Azul</h1>
+                    <div class="maps">
+                        <img src="img/maps.jpg" alt="ícon-maps">
+                    </div>
+            </div>
+        </div>
+        <div id="card-trips">
+            <div class="radio">
+                <h4>Passagens Aéreas</h4>
+                <input id="radio" name="radio" type="radio">
+                <label for="radio">Ida e volta</label>
+                <input id="radio2" name="radio" type="radio">
+                <label for="radio2">Só ida</label>
+                <input id="radio3" name="radio" type="radio">
+                <label for="radio3">Multidestino</label>
+            </div>
+            <div class="origin-destiny">
+                <label for="origin">origem</label>
+                <input id="origin" name="origin" type="text" placeholder="Insira sua cidade..">
+                <button>
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+                <label for="destiny">destino</label>
+                <input id="destiny" name="desinity" type="text" placeholder="Insira sua cidade..">
+            </div>
+            <div class="date">
+                <label for="going">datas</label>
+                <input id="going" name="going" type="date">
+                <input id="return" name="return" type="date">
+            </div>
+            <div class="passengers">
+                <i class="fa-regular fa-user"></i>
+                <label for="passengers">passageiros e classe</label>
+                <input id="passengers" name="passengers" type="number" placeholder="N° de passageiros">
+            </div>
+            <div class="btn-1">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Buscar
+                </button>
+            </div>
+            <div class="search">
+                <p>Buscar pela data mais barata?</p>
+                <input type="checkbox">
+            </div>
+        </div>
+        <section id="container-main">
+            <div class="information">
+                <ul>
+                    <li><a href="#">Decolar</a></li>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#">Passagens Aéreas</a></li>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#">Companhias Aéreas</a></li>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#">Azul Linhas Aéreas</a></li>
+                </ul>
+            </div>
+            <div class="title-1">
+                <h2 class="tag-1">Azul Linhas Aéreas em outros destinos!</h2>
+            </div>
+            <div id="cards-flights">
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/fortaleza.jpg" alt="imagem-fortaleza">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Fortaleza</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>371</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/RJ.jpg" alt="imagem-riodejaneiro">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Rio de Janeiro</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>624</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/SP.jpg" alt="imagem-sãopaulo">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para São Paulo</h2>
+                        <p class="p1">Saindo de Salvador</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>432</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/maceió.jpg" alt="imagem-maceió">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Maceió</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>369</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="title-2">
+                <h2 class="tag-2">Passagens aéreas Azul promocionais de madrugada</h2>
+            </div>
+            <div id="cards-flights">
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/belo-horizonte.jpg" alt="imagem-belo-horizonte">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para BH</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>371</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/curitiba.jpg" alt="imagem-curitiba">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Curitiba</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>624</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/recife.jpg" alt="imagem-recife">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Recife</h2>
+                        <p class="p1">Saindo de Salvador</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>432</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/natal.jpg" alt="imagem-natal">
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">passagem</p>
+                        <h2>Voos para Natal</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Por Azul</p>
+                        <p class="p2">Ida e Volta</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço ida e volta</p>
+                        <p class="p5">R$ <span>369</span></p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-2">
+                <button>
+                    Ver mais ofertas
+                </button>
+            </div>
+            <div class="title-3">
+                <h2 class="tag-3">Pacotes de viagem com Azul: vôo + hotel</h2>
+            </div>
+            <div id="cards-flights">
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/fortaleza-2.jpg" alt="imagem-fortaleza2">
+                    </div>
+                    <div class="banner">
+                        <p>8 dias / 7 noites</p>
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">pacote</p>
+                        <h2>Pacotes para <br>Fortaleza</h2>
+                        <p class="star"><strong>5.8</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Hotel + Aéreo</p>
+                    </div>
+                    <div class="prices-edit">
+                        <p class="p4">Preço por pessoa</p>
+                        <p class="p5">R$ <span>371</span></p>
+                        <p class="p6">Taxas e impostos não inclusos</p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/RJ-2.jpg" alt="imagem-riodejaneiro2">
+                    </div>
+                    <div class="banner">
+                        <p>8 dias / 7 noites</p>
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">pacote</p>
+                        <h2>Pacotes para Rio de Janeiro</h2>
+                        <p class="star"><strong>5.8</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Hotel + Aéreo</p>
+                    </div>
+                    <div class="prices-edit">
+                        <p class="p4">Preço por pessoa</p>
+                        <p class="p5">R$ <span>624</span></p>
+                        <p class="p6">Taxas e impostos não inclusos</p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/porto-seguro.jpg" alt="imagem-portoseguro">
+                    </div>
+                    <div class="banner">
+                        <p>8 dias / 7 noites</p>
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">pacote</p>
+                        <h2>Pacotes para Porto Seguro</h2>
+                        <p class="p1">Saindo de Salvador</p>
+                        <p class="p1">Hotel + Aéreo</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço por pessoa</p>
+                        <p class="p5">R$ <span>432</span></p>
+                        <p class="p6">Taxas e impostos não inclusos</p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+                <div class="flight">
+                    <div class="state-img">
+                        <img src="img/natal-2.jpg" alt="imagem-natal2">
+                    </div>
+                    <div class="banner">
+                        <p>8 dias / 7 noites</p>
+                    </div>
+                    <div class="offer-card">
+                        <p class="ticket">pacote</p>
+                        <h2>Pacotes para <br>Natal</h2>
+                        <p class="p1">Saindo de São Paulo</p>
+                        <p class="p1">Hotel + Aéreo</p>
+                    </div>
+                    <div class="prices">
+                        <p class="p4">Preço por pessoa</p>
+                        <p class="p5">R$ <span>369</span></p>
+                        <p class="p6">Taxas e impostos não inclusos</p>
+                    </div>
+                    <div class="points-pass">
+                        <i class="fa-solid fa-passport"></i>
+                        <p><strong><a href="#">Passaporte Decolar</a></strong></p>
+                        <p>Você acumularia <strong>77 pontos</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-2">
+                <button>
+                    Ver mais ofertas
+                </button>
+            </div>
+            <div class="title-4">
+                <h2 class="tag-4">Pontuação dos usuários</h2>
+            </div>
+            <div id="users-score">
+                <div class="reviews">
+                    <h1><span>7.9</span>Muito Bom</h1>
+                    <p>Classificação general de Azul. Baseado em<br> 34.179 comentários</p>
+                </div>
+                <div class="inittial">
+                    <div class="score-bar">
+                        <ul>
+                            <li>
+                                <hr>
+                                <p>Bagagem<span>7.8</span></p>
+                            </li>
+                            <li>
+                                <hr>
+                                <p>Confort<span>7.7</span></p>
+                            </li>
+                            <li>
+                                <hr>
+                                <p>Serviços<span>8.3</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="score-bar">
+                                <ul>
+                                    <li>
+                                        <hr>
+                                        <p>Pontualidade<span>8.0</span></p>
+                                    </li>
+                                    <li>
+                                        <hr>
+                                        <p>Limpeza<span>8.2</span></p>
+                                    </li>
+                                    <li>
+                                        <hr>
+                                        <p>Comida<span>7.7</span></p>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="title-5">
+                    <h2 class="tag-5">Conheça mais sobre a Azul!</h2>
+                </div>
+                <swiper class="info">
+                    <div class="know-more">
+                        <h4>Como fazer o check-in na<br> Azul Linhas Aéreas?</h4>
+                        <p>O check in da Azul está disponível entre 48 horas e 75 minutos antes do horário de saída do voo. Você pode fazer seu web check-in na Decolar.
+                            Consulte nossa
+                            página de ajuda para saber mais detalhes.</p>
+                    </div>
+                    <div class="know-more">
+                        <h4>O que está autorizado na bagagem de mão da<br> Azul?</h4>
+                        <p>Nas bagagens de mão estão restritos objetos cortantes, produtos inflamáveis ou explosíveis e materiais que estejam classificados como perigosos de acordo
+                         com a companhia aérea. Em rotas internacionais, também estao restritos líquidos em embalagens com mais de 100ml.
+                         Verifique sua bagagem de mão e evite contratempos na hora do seu embarque.</p>
+                    </div>
+                    <div class="know-more">
+                        <h4>Quando posso despachar minhas bagagens na<br> Azul?</h4>
+                        <p>A bagagem pode ser despachada quando é aberto o check-in presencial no aeroporto, que em geral costuma acontecer entre 3 e 4 horas antes da decolagem.
+                         O despacho da bagagem depende das políticas de medida e peso, além das regras de segurança da companhia e agências de segurança de cada país.</p>
+                    </div>
+                    <div class="know-more">
+                        <h4>Como alterar ou<br> antecipar meu voo na<br> Azul?</h4>
+                        <p>As alterações permitidas na sua reserva dependem da política de cada passagem. Para conhecer a política de alterações e os custos associados a
+                        essa operação acesse nossa página de ajuda.</p>
+                    </div>
+                </swiper>
+                <div class="blue-flights">
+                    <h2>Voe com a Azul</h2>
+                    <p>A Azul Linhas Aéreas, criada em 2008, é a companhia aérea brasileira com maior número de destinos nacionais. Eleita uma das companhias mais pontuais, a Azul<br>
+                     realiza mais de 790 voos diários, com uma frota de 140 aeronaves.</p>
+                     <p>Reconhecida como uma companhia que opera com <strong>passagens</strong> aéreas baratas, a Azul define que seu papel é “estimular o tráfego aéreo e dinamizar a economia<br>
+                     brasileira por meio de uma equação tão simples de entender quanto difícil de imitar: preços baixos com alta qualidade de serviços”. </p>
+                     <p>Além de proporcionar bons preços nas passagens aereas Azul, a companhia oferece o serviço Ônibus Azul, com linhas de ônibus gratuitas que ligam os passageiros<br>
+                    da Azul até o aeroporto. O serviço Azul viagens funciona em São Paulo, Campinas e Sorocaba e também está disponível para os passageiros da TAP Portugal.<br>
+                     Passageiros com destino ao Aeroporto de Navegantes também possuem uma linha Azul partindo de Balneário Camboriú, por um custo adicional. </p>
+                     <p>Acompanhando as novas tecnologias, a companhia possui o Aplicativo Azul onde é possível, pelo celular, fazer o check-in, antecipar voo, conferir o status da viagem e<br>
+                     comprar passagens.</p>
+                     <p>Aproveite as vantagens da companhia e reserve agora as suas passagens aéreas da Azul no Decolar e viaje tranquilo.</p>
+                </div>
+                <div class="blue-creation">
+                    <h4>Azul viagens</h4>
+                    <p>Criada em 2008, a Azul Linhas Aéreas é uma das melhores companhias brasileiras e atualmente<br>
+                    a que mais cresce em termos de passageiros por quilômetro voado no Brasil. A empresa opera<br>
+                    com a maior malha aérea do país atendendo mais de 100 destinos com 792 decolagens diárias.</p>
+                    <p><strong>A companhia</strong> é conhecida pela sua variedade de ofertas de voos domésticos, incluindo muitas<br>
+                    cidades do interior do país, mas já apresenta forte atuação internacional, com bases fixas em<br>
+                    algumas localidades, como Orlando (Estados Unidos), em Montevidéu (Uruguai) e Lisboa<br>
+                    (Portugal). </p>
+                    <p>A Azul é a única companhia que possui aviões da empresa brasileira Embraer em sua frota, junto<br>
+                    com outros aviões da Airbus, o modelo A320, que oferece mais espaço entre as pernas e mais<br>
+                    conforto ao usuário.</p>
+                    <p>Voe Azul com o Decolar e garanta as melhores passagens!</p>
+                    <div class="creation-img">
+                        <img src="img/flight.jpg" alt="img-avião">
+                    </div>
+                </div>
+                <div class="reasons-choice">
+                    <h2>Razões para escolher o Azul Linhas Aéreas</h2>
+                    <h3>Azul Linhas Aéreas, conhecendo o mundo com a melhor companhia</h3>
+                    <p>A Azul Linhas Aéreas foi criada no ano de 2008 por David Neeleman, um brasileiro criado nos Estados Unidos, sendo considerada já em 2014 a terceira maior<br>
+                     companhia aérea brasileira em relação à quantidade de passageiros. No entanto, por causa dos diversos destinos que cobre em todo o Brasil, é considerada a maior<br>
+                     companhia aérea do país.<br>
+                    Esta jovem companhia aérea opera em 98 aeroportos no Brasil e em 6 aeroportos internacionais. O nome ‘Azul’ foi escolhido por Neeleman após uma enquete feita na<br>
+                     internet, com a participação de mais de 100 mil usuários. Entre os nomes mais cotados estavam Azul, Alegria, Abraço e Samba, mas ele escolheu Azul por “inspirar<br>
+                     sentimentos positivos e porque remete ao céu”.<br>
+                    Rotas da Azul Linhas Aéreas
+                    Esta companhia aérea Voeazul é a que atende mais cidades brasileiras, sendo 120 destinos dentro do Brasil, de norte a sul e de leste a oeste, tanto as capitais quanto<br>
+                     diversas cidades do interior, além dos destinos internacionais para Flórida (Orlando e Miami), nos Estados Unidos, e Lisboa, em Portugal.</p>
+                     <h3>Serviços</h3>
+                     <h4>Menor desacompanhado</h4>
+                     <p>Só é permitido em voos diretos e não podem ser menores de 7 anos e 11 meses. Deve se apresentar, na hora do check-in, a documentação exigida pelo Estatuto da Criança e do Adolescente<br>
+                    e do Conselho Nacional de Justiça. Isso conta para menores entre 8 e 16 anos incompletos.</p>
+                    <h4>Acento Extra</h4>
+                    <p>O passageiro que precise de mais espaço poderá comprar um segundo assento, no entanto pagará só uma taxa de embarque.</p>
+                    <h4>Animais na cabine</h4>
+                    <p>Cada passageiro tem o direito de viajar com 1 animal (cão ou gato) durante o voo, desde que tenham mais de 4 meses de idade e sejam transportados com segurança.<br>
+                         Em voos nacionais só são permitidos 3 animais domésticos por voo. Já em voos internacionais são permitidos até 5 animais domésticos.<br>
+                        É importante destacar que o peso máximo total (animal e container) não deve ultrapassar os 7 kg e o animal não deve ter odor desagradável e deve estar limpo e<br>
+                         saudável. As dimensões não devem ultrapassar os 43 cm de comprimento, 31,5 cm de largura e 20 cm de altura.</p>
+                    <h3>Refeições a bordo</h3>
+                    <p>A Azul Linhas Aéreas disponibiliza refeições especiais segundo seja solicitado na Central de Atendimento até 48 horas antes do voo. As opções são as seguintes:</p>
+                    <ul>
+                        <li>Para bebês de até 2 anos de idade: alimentos nutritivos, saborosos e pastosos.</li>
+                        <li>Para crianças a partir de 2 anos de idade: pratos variados, coloridos e nutritivos.</li>
+                        <li>Para diabéticos: dieta especial respeitando às necessidades nutritivas e restritivas.</li>
+                        <li>Para hipertensos: alimentos sem adição de sal.</li>
+                        <li>Para vegetarianos: pratos elaborados sem produtos de origem animal ou derivados.</li>
+                        <li>Kosher: pratos elaborados de acordo aos preceitos da tradição judia.</li>
+                        <li>Halal: pratos elaborados de acordo aos preceitos Halal.</li>
+                    </ul>
+                    <h3>Frota da Azul Linhas Aéreas</h3>
+                    <p>A frota desta companhia aérea está composta de diversos tipos de aviões:<br>
+                        Boeing 737, Airbus A320, Airbus A321, Airbus A330-200, Airbus A350-900, ATR 72-600 e Embraer 195.</p>
+                    <h3>Clube TudoAzul</h3>
+                    <p>O Clube TudoAzul permite que os assinantes ganhem pontos mensalmente em suas contas, obtendo vantagens e promoções exclusivas. O programa funciona com<br>
+                         base no acúmulo de pontos segundo a compra de serviços da Azul Linhas Aéreas ou de produtos de Parceiros. Os pontos ganhos podem ser trocados por produtos e<br>
+                          / ou serviços oferecidos pela companhia, por exemplo: pacotes de viagem, passagem aérea, etc.<br>
+                        Assim, trocando os pontos por passagens, os assinantes poderão voar para mais de 100 destinos brasileiros e no mundo. Além disso, também poderão trocar pontos<br>
+                         por produtos oferecidos no Shopping TudoAzul: tênis, relógios, canecas térmicas, vídeo games ou Smart TV, entre outras coisas.</p>
+                </div>
+                <div class="title-6">
+                    <h2 class="tag-6">Outras Companhias Aéreas</h2>
+                </div>
+                <div class="cards-companies">
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/american-airlines.jpg" alt="icone-american-airlines">
+                        </picture>
+                       <div class="nick">
+                           <h6>American Airlines</h6>
+                       </div>
+                    </div>
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/aerolineas.jpg" alt="ícone-aerolineas">
+                        </picture>
+                        <div class="nick">
+                            <h6>Aerolíneas Argentinas</h6>
+                        </div>
+                    </div>
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/united.jpg" alt="ícone-united-airlines">
+                        </picture>
+                        <div class="nick">
+                            <h6>United Airlines</h6>
+                        </div>
+                    </div>
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/latam.jpg" alt="ícone-latam-airlines">
+                        </picture>
+                        <div class="nick">
+                            <h6>LATAM Airlines</h6>
+                        </div>
+                    </div>
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/avianca.jpg" alt="ícone-avianca">
+                        </picture>
+                        <div class="nick">
+                            <h6>Avianca</h6>
+                        </div>
+                    </div>
+                    <div class="comp-items">
+                        <picture>
+                            <img src="icons/lufthansa.jpg" alt="ícone-lufthansa">
+                        </picture>
+                        <div class="nick">
+                            <h6>Lufthansa</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-7">
+                    <h2 class="tag-7">Perguntas Frequentes sobre Azul</h2>
+                </div>
+                <div id="aswers">
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-1">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-1">
+                                        <h5 class="faq-title">Quais são as passagens aéreas mais populares da Azul?</h5>
+                                    </label>
+                                <p class="faq-content">Os vôos mais populares da Azul são:</p>
+                                <ul class="list-content">
+                                    <li><a href="#">Voos de São Paulo a Recife</a></li>
+                                    <li><a href="#">Voos de São Paulo a Salvador</a></li>
+                                    <li><a href="#">Voos de São Paulo a Belo Horizonte</a></li>
+                                    <li><a href="#">Voos de São Paulo a Rio de Janeiro</a></li>
+                                    <li><a href="#">Voos de São Paulo a Maceió</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-2">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-2">
+                                        <h5 class="faq-title">Qual é a avaliação da Azul?</h5>
+                                    </label>
+                                <p class="faq-content">Azul tem uma avaliação nota 7.9. O que nossos viajantes mais destacaram foi Serviços, com nota 8.3, enquanto o que menos se destacou foi Confort, com nota 7.7.</p>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-3">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-3">
+                                        <h5 class="faq-title">Posso somar pontos no Passaporte Decolar na compra do meu voo Azul?</h5>
+                                    </label>
+                                <p class="faq-content">Sim! Com a compra do seu voo Azul você pode somar até 901 pontos. No Passporte Decolar você pode somar seus pontos e depois trocá-los por descontos exclusivos em outros produtos<br>
+                                     como hospedagem, pacotes, atividades, assistência, carros e muito mais. Lembre-se que você também pode resgatar seus pontos para voos de outras companhias aéreas.</p>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-4">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-4">
+                                        <h5 class="faq-title">Com quanto tempo de antecedência devo chegar no aeroporto para embarcar?</h5>
+                                    </label>
+                                <p class="faq-content">Recomenda-se chegar no aeroporto com 2 horas de antecedência para voos domésticos e 3 horas para voos internacionais. Dessa forma, você terá tempo suficiente para fazer o check-in,<br>
+                                     despachar sua mala, passar pelo controle de segurança e embarcar em seu voo.</p>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-5">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-5">
+                                        <h5 class="faq-title">É melhor fazer o check in pela internet ou no aeroporto?</h5>
+                                    </label>
+                                <p class="faq-content">O check-in online é a opção mais prática para que você possa otimizar seu tempo e evitar longas filas no aeroporto. Além disso, algumas companhias aéreas podem cobram pelo check-in no<br>
+                                     aeroporto.</p>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-6">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-6">
+                                        <h5 class="faq-title">O que posso levar na bagagem de mão?</h5>
+                                    </label>
+                                <p class="faq-content">Na bagagem de mão é permitido levar comida fechada que cumpra as regras da Azul, já frascos de bebidas não devem exceder 100 ml. Por outro lado, as compras no duty free (dentro das<br>
+                                     salas de espera) estão isentas das restrições. Quanto aos itens pessoais, você pode levar seu computador, celular, carregadores, medicamentos, utensílios de plástico e muito mais a bordo.<br>
+                                      Verifique cuidadosamente as políticas de bagagem de mão da Azul.</p>
+                            </div>
+                            </div>
+                            <div class="list-items">
+                                <input type="checkbox" class="trigger-input" id="faq-title-7">
+                                <div class="trigger-wrapper">
+                                    <label for="faq-title-7">
+                                        <h5 class="faq-title">O que não posso levar na bagagem de mão?</h5>
+                                    </label>
+                                <p class="faq-content">Alguns exemplos do que você não pode levar na bagagem sao: armas, sprays de pimenta, objetos pontiagudos, isqueiro, prensa, choque elétrico ou químico (incluindo réplicas ou brinquedo),<br>
+                                     styling, sprays de pimenta, ácidos ou neutralizantes, ferramentas de trabalho, navalhas, líquidos inflamáveis, aerossóis,repelentes de animais em aerossóis, etc.</p>
+                            </div>
+                            </div>
+                </div>
+                <div class="signup">
+                    <h3>Inscreva-se para receber ofertas exclusivas</h3>
+                    <div class="card-sign">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="mail" placeholder="Insira seu e-mail">
+                        <div class="btn-3">
+                            <button>
+                                Quero recebê-las!
+                            </button>
+                        </div>
+                    </div>
+                    <div class="coment">
+                        <p>Você receberá e-mails promocionais da Decolar. Para mais informações, consulte<br>
+                            as <span>políticas de privacidade.</span>
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="nav-links" id="nav-links-1">
+            <div class="links">
+                <ul>
+                    <li>Lugares para Viajar</li>
+                    <li><a href="#">Roteiros de Viagem</a></li>
+                    <li><a href="#">Cancún</a></li>
+                    <li><a href="#">Nova York</a></li>
+                    <li><a href="#">Porto de Galinhas</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Viajar junto a Decolar</li>
+                    <li><a href="#">Guia de Destinos</a></li>
+                    <li><a href="#">Hotéis Fazenda</a></li>
+                    <li><a href="#">Passagens Aéreas</a></li>
+                    <li><a href="#">Aluguel de Carros</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Hospedagens</li>
+                    <li><a href="#">Casas para alugar</a></li>
+                    <li><a href="#">Iberostar Praia do Forte</a></li>
+                    <li><a href="#">Salinas Maragogi</a></li>
+                    <li><a href="#">Hotel Rio de Janeiro</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Companhías Aéreas</li>
+                    <li><a href="#">Latam</a></li>
+                    <li><a href="#">Azul</a></li>
+                    <li><a href="#">Gol</a></li>
+                    <li><a href="#">United</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="central-icons">
+            <div class="nav-icons">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="sales">
+                <a href="#"><span>Central de vendas</span> 0800 883 6342</a>
+                <a href="#"><span>Pós-venda</span> Atendimento ao cliente</a>
+            </div>
+        </div>
+        <div class="nav-links">
+            <div class="links">
+                <ul>
+                    <li>Minha conta</li>
+                    <li><a href="#">Passaporte Decolar</a></li>
+                    <li><a href="#">Cartão Decolar Santander</a></li>
+                    <li><a href="#">Minhas Viagens</a></li>
+                    <li><a href="#">Meu Perfil</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Somos Decolar</li>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Trabalhe na Decolar</a></li>
+                    <li><a href="#">Contato com a imprensa</a></li>
+                    <li><a href="#">Relações com Investidores</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul class="safe-buy">
+                    <li>Compra Segura</li>
+                    <li><a href="#">Termos e condições</a></li>
+                    <li><a href="#">Politica de privacidade</a></li>
+                    <li><a href="#">Black Friday</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <ul class="business">
+                    <li>Promova seu negócio</li>
+                    <li><a href="#">Cadastre sua locadora</a></li>
+                    <li><a href="#">Programa de franquias Decolar</a></li>
+                    <li><a href="#">Premium Connectivity Partner</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="select">
+            <form>
+                <label for="plataforma">Navegar no site de:</label>
+                <select name="plataforma">
+                    <option value="br">Brasil</option>
+                    <option value="ag">Argentina</option>
+                    <option value="bl">Bolívia</option>
+                    <option value="ch">Chile</option>
+                    <option value="cl">Colômbia</option>
+                    <option value="cr">Costa Rica</option>
+                    <option value="eqd">Equador</option>
+                    <option value="els">El Salvador</option>
+                    <option value="guat">Guatemala</option>
+                    <option value="hnd">Honduras</option>
+                    <option value="mxc">México</option>
+                    <option value="ncr">Nicarágua</option>
+                    <option value="pnm">Panamá</option>
+                    <option value="prg">Peru</option>
+                    <option value="pcg">Porto Rico</option>
+                    <option value="rd">Republica Dominicana</option>
+                    <option value="eua">Estados Unidos</option>
+                    <option value="urg">Uruguai</option>
+                </select>
+            </form>
+        </div>
+        <div class="iata-img">
+            <img src="icons/iata.jpg" alt="logo-iata">
+        </div>
+        <div class="end-info">
+            <div class="end-information-1">
+                <p><strong>Decolar está presente em</strong> Brasil, Argentina, Bolívia, Chile, Colômbia, Costa Rica, Equador,<br>
+                     El Salvador, Guatemala, Honduras, México, Nicarágua, Panamá, Paraguai, Peru, Porto Rico,<br>
+                      República Dominicana, Estados Unidos, Uruguai</p>
+                <p>DECOLAR.COM - Ministério do Turismo - Cadastur 26.012747.10.0001-6 /<br>
+                     26.012747.10.0002-3 Copyright 1999-2023, Decolar.com Ltda. Todos os direitos<br>
+                      reservados.</p>
+                <p>Alameda Grajaú, 219, 2º andar, Alphaville Centro Industrial e Empresarial, Barueri,<br>
+                     São Paulo, CEP 06454-050</p>
+            </div>
+            <div class="end-information-2">
+                <p>
+                    A Decolar comercializa os produtos de seus fornecedores apenas de forma direta pelo seu<br>
+                     site (www.decolar.com). Não há qualquer venda por redes sociais (Facebook, Instagram,<br>
+                      Twitter, LinkedIn, etc.). Pós-vendas - os canais oficiais de atendimento aos clientes são: por<br>
+                       meio do telefone 11 4003 9444 e Minhas Viagens. A Decolar não realiza qualquer tipo de<br>
+                        abordagem nas redes sociais ou sites de relacionamento, tampouco disponibiliza e-mails de<br>
+                         contato com domínios distintos de @decolar.com. Endereços de e-mails com domínios:<br>
+                          @hotmail.com @gmail.com @outlook.com ou qualquer outro neste sentido não tem<br>
+                           qualquer relação com a Decolar. Mais esclarecimentos em www.decolar.com.
+                </p>
+            </div>
+        </div>
